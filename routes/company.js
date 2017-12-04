@@ -29,15 +29,15 @@ module.exports = (app, db) => {
         headers: true,
         ignoreEmpty: true
      })
-     .on("data", function(data){
+     .on("data", (data) => {
         data['insertionDate'] = new Date()
           
         companyData.push(data);
      })
-     .on("end", function(){
+     .on("end", async () => {
         //mongoInsert
         try {
-          const result = db.collection('CompanyData').insert(data)
+          const result = await db.collection('CompanyData').insert(data)
           if (result) {
             res.send(`Se subieron ${companyData.length} registros con exito`);
           } 
