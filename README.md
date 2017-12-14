@@ -2,7 +2,7 @@
 
 RESTful API creada para el proyecto de Minería de Datos.
 
-##Instrucciones
+## Instrucciones
 
 1. Descarga o clona el proyecto y asegúrate de tener Node.js 8.x.x
 2. Ejecuta `npm install`
