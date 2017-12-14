@@ -1,6 +1,8 @@
 # dw-backend
 
-RESTful API creada para el proyecto de Minería de Datos.
+RESTful API creada para el proyecto de Data Warehouses.
+
+Este proyecto fué creado con Node.js y Express.js.
 
 ## Instrucciones
 
