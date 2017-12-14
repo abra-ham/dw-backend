@@ -9,4 +9,4 @@ RESTful API creada para el proyecto de Minería de Datos.
 3. Este API depende de la ejecución de una base de datos MongoDB, asegúrate de tener una corriendo
    en el puerto 27070
    `mongod --port=27070`
-4. Ejecuta `node .
+4. Ejecuta `node .`
